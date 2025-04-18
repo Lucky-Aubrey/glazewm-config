@@ -1,0 +1,156 @@
+/**
+ * Import the Nerdfonts icon font.
+ * Ref https://www.nerdfonts.com/cheat-sheet for a cheatsheet of available Nerdfonts icons.
+ */
+@import 'https://www.nerdfonts.com/assets/css/webfont.css';
+
+:root {
+  --grey: rgb(192 202 245 / 100%); /* Used for variables, class names, terminal white */
+  --bluegrey: rgb(169 177 214 / 100%); /* Used for editor foreground */
+  --orange: rgb(255 158 100 / 100%); /* Used for Markdown and HTML text */
+  --lightOrange: rgb(255 199 119 / 100%); /* Used for Markdown and HTML text */
+  --green: rgb(196 232 141 / 100%);   /* Used for comments */
+  --teal: rgb(0 255 210 / 100%);
+  --lightTeal: rgb(180 249 248 / 100%);
+  --navyBlue: rgb(10 25 47 / 100%); /* Deep navy blue accent */
+  --darkBase: rgb(26 27 38 / 100%); /* Tokyo Night dark base */
+  --darkBaseTransparent: rgb(26 27 38 / 40%); /* Tokyo Night dark base */
+  --lightPink: rgb(255 117 127 / 100%);
+  --pink: rgb(255 0 123 / 100%);
+
+  --icons: var(--green); /* now using one of the defined colors */
+  --numbers: var(--grey);
+
+  --workspaceTextColor: var(--darkBase);
+  --workspaceBackground: var(--lightOrange);
+  --workspaceDisplayed: var(--teal);
+  --workspaceFocused: var(--orange);
+  --zebarBackground: var(--darkBaseTransparent);
+
+  --extrasTextColor: var(--navyBlue);
+  --extrasBackgroundColor: var(--lightTeal);
+}
+
+i {
+  color: var(--icons);
+  margin-right: 7px;
+}
+
+body {
+  color: var(--numbers);
+  font-family: ui-monospace, monospace;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+div,
+span,
+p {
+  cursor: default;
+  user-select: none;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  background: var(--zebarBackground);
+}
+/**
+*  #root {
+*    border-bottom: 1px solid rgb(255 255 255 / 5%);
+*    background: linear-gradient(rgb(31 35 53 / 15%), rgb(0 0 0 / 10%));
+*  }
+*/
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  height: 100%;
+  padding: 4px 1.5vw;
+}
+
+.left,
+.center,
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  justify-self: center;
+}
+
+.right {
+  justify-self: end;
+}
+
+.logo,
+.binding-mode,
+.tiling-direction,
+.paused-button,
+.network,
+.memory,
+.cpu,
+.battery {
+  margin-right: 20px;
+}
+
+.workspaces {
+  display: flex;
+  align-items: center;
+}
+
+.workspace {
+  background: var(--workspaceBackground);
+  margin-right: 4px;
+  padding: 4px 8px;
+  color: var(--workspaceTextColor);
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+
+  &.displayed {
+    background: var(--workspaceDisplayed);
+  }
+
+  &.focused,
+  &:hover {
+    background: var(--workspaceFocused);
+  }
+}
+
+.binding-mode,
+.tiling-direction,
+.paused-button {
+  background: var(--extrasBackgroundColor);
+  color: var(--extrasTextColor);
+  border-radius: 2px;
+  line-height: 1;
+  padding: 4px 8px;
+  border: 0;
+  cursor: pointer;
+}
+
+.binding-mode {
+  margin-right: 4px;
+}
+
+.cpu .high-usage {
+  color: #900029;
+}
+
+.battery {
+  position: relative;
+}
+
+.battery .charging-icon {
+  position: absolute;
+  font-size: 7px;
+  left: -8px;
+  top: 3px;
+}

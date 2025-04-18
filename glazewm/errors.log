@@ -1,0 +1,39 @@
+[2m2025-04-16T22:43:00.033395Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'zebar'.
+
+Error: Der Vorgang wurde durch den Benutzer abgebrochen. (0x800704C7)
+[2m2025-04-16T22:44:03.924537Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'zebar'.
+
+Error: Der Vorgang wurde durch den Benutzer abgebrochen. (0x800704C7)
+[2m2025-04-16T22:46:10.421982Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'zebar'.
+
+Error: Der Vorgang wurde durch den Benutzer abgebrochen. (0x800704C7)
+[2m2025-04-16T22:46:54.273341Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'zebar'.
+
+Error: Der Vorgang wurde durch den Benutzer abgebrochen. (0x800704C7)
+[2m2025-04-16T22:48:36.167212Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'zebar'.
+
+Error: Der Vorgang wurde durch den Benutzer abgebrochen. (0x800704C7)
+[2m2025-04-16T22:48:55.486958Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'zebar'.
+
+Error: Der Vorgang wurde durch den Benutzer abgebrochen. (0x800704C7)
+[2m2025-04-16T23:18:52.479002Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-04-17T22:23:31.500332Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm.gui'.
+
+Error: Der Vorgang wurde durch den Benutzer abgebrochen. (0x800704C7)
+[2m2025-04-17T22:31:13.108816Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm.gui.exe'.
+
+Error: Der Vorgang wurde durch den Benutzer abgebrochen. (0x800704C7)
+[2m2025-04-17T22:32:29.913124Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[24].commands: unrecognized subcommand
+ at line 253 column 15
+[2m2025-04-17T22:32:49.794762Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command '%ProgramFiles%/WezTerm/weterm-gui.exe'.
+[2m2025-04-17T22:33:16.583220Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command 'C:ProgramFiles/WezTerm/weterm-gui.exe'.
+[2m2025-04-17T22:34:04.791428Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command 'C:\ProgramFiles\WezTerm\weterm-gui.exe'.
+[2m2025-04-17T22:34:30.814569Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command 'C:\ProgramFiles\WezTerm\wezterm-gui.exe'.
+[2m2025-04-17T22:35:03.023549Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command '%ProgramFiles\WezTerm\wezterm-gui.exe'.
+[2m2025-04-17T22:35:26.299882Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[24].commands: unrecognized subcommand
+ at line 253 column 15
+[2m2025-04-17T22:38:05.725170Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Command doesn't have an ending `"`: '"C:\\Program Files\\WezTerm\\wezterm-gui.exe"'.
+[2m2025-04-17T22:38:45.418605Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Command doesn't have an ending `"`: '"$env:ProgramFiles\\WezTerm\\wezterm-gui.exe"'.
+[2m2025-04-17T22:39:25.523542Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Command doesn't have an ending `"`: '"$env:ProgramFiles\\WezTerm\\wezterm-gui.exe"'.
+[2m2025-04-17T22:40:18.092080Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Command doesn't have an ending `"`: '"C:\\Program Files\\WezTerm\\wezterm-gui.exe"'.
+[2m2025-04-17T23:01:53.248494Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.

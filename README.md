@@ -1,0 +1,2 @@
+# Luckys GlazeWM + Zebar dotfiles
+
