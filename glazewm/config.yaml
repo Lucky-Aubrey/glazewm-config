@@ -2,7 +2,7 @@ general:
   # Commands to run when the WM has started. This is useful for running a
   # script or launching another application.
   # Example: The below command launches Zebar.
-  startup_commands: ['shell-exec zebar']
+  startup_commands: ['shell-exec C:\\Program Files\\Yasb\\yasb.exe']
 
   # Commands to run just before the WM is shutdown.
   # Example: The below command kills Zebar.
@@ -44,14 +44,14 @@ gaps:
   scale_with_dpi: true
 
   # Gap between adjacent windows.
-  inner_gap: '1px'
+  inner_gap: '10px'
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: '41px'
-    right: '1px'
-    bottom: '1px'
-    left: '1px'
+    top: '10px'
+    right: '10px'
+    bottom: '10px'
+    left: '10px'
 
 window_effects:
   # Visual effects to apply to the focused window.
@@ -59,8 +59,8 @@ window_effects:
     # Highlight the window with a colored border.
     # ** Exclusive to Windows 11 due to API limitations.
     border:
-      enabled: false
-      color: '#fcfafa'
+      enabled: true
+      color: '#ff757f'
 
     # Remove the title bar from the window's frame. Note that this can
     # cause rendering issues for some applications.
@@ -72,28 +72,28 @@ window_effects:
     corner_style:
       enabled: true
       # Allowed values: 'square', 'rounded', 'small_rounded'.
-      style: 'square'
+      style: 'rounded'
 
     # Change the transparency of the window.
     transparency:
       enabled: false
       # Can be something like '95%' or '0.95' for slightly transparent windows.
       # '0' or '0%' is fully transparent (and, by consequence, unfocusable).
-      opacity: '95%'
+      opacity: '90%'
 
   # Visual effects to apply to non-focused windows.
   other_windows:
     border:
-      enabled: true
-      color: '#a1a1a1'
+      enabled: True
+      color: '#9d7cd8'
     hide_title_bar:
       enabled: false
     corner_style:
       enabled: true
-      style: 'square'
+      style: 'rounded'
     transparency:
       enabled: true
-      opacity: '80%'
+      opacity: '100%'
 
 window_behavior:
   # New windows are created in this state whenever possible.
@@ -315,9 +315,11 @@ keybindings:
     bindings: ['alt+shift+9']
 
   # Restart zebar
-  - commands: ['shell-exec taskkill /IM zebar.exe /F']
-    bindings: ['alt+shift+z']
-  - commands: ['shell-exec zebar']
+  - commands: ['shell-exec taskkill /IM yasb.exe /F']
     bindings: ['alt+shift+y']
+  - commands: ['shell-exec C:\\Program Files\\Yasb\\yasb.exe']
+    bindings: ['alt+shift+u']
 
+  # - commands: ['shell-exec taskkill /IM zebar.exe /F','shell-exec timeout /T 2 /NOBREAK','shell-exec zebar']
+  #   bindings: ['alt+shift+u']
 

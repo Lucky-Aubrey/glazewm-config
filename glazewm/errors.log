@@ -37,3 +37,11 @@ Error: Der Vorgang wurde durch den Benutzer abgebrochen. (0x800704C7)
 [2m2025-04-17T22:39:25.523542Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Command doesn't have an ending `"`: '"$env:ProgramFiles\\WezTerm\\wezterm-gui.exe"'.
 [2m2025-04-17T22:40:18.092080Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Command doesn't have an ending `"`: '"C:\\Program Files\\WezTerm\\wezterm-gui.exe"'.
 [2m2025-04-17T23:01:53.248494Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-04-19T09:54:02.326866Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[51]: duplicate field `bindings` at line 320 column 5
+[2m2025-04-19T09:54:37.190845Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[52].commands: unrecognized subcommand
+ at line 323 column 15
+[2m2025-04-19T09:56:35.981502Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'Start-Sleep -Seconds 2'.
+
+Error: Der Vorgang wurde durch den Benutzer abgebrochen. (0x800704C7)
+[2m2025-04-20T10:43:40.522941Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general.startup_commands: unrecognized subcommand
+ at line 5 column 21
